@@ -18,12 +18,13 @@
     </div>
 
     <div class="content">
-        <div class="uploader">
-            Upload APK here
-        </div>
+        
 
-        <input class="button" value="Choose APK" type="file" name="apk" accept=".apk">
-        <input type="submit" class="button">
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            Select apk to upload:
+            <input class="button" type="file" name="fileToUpload" id="fileToUpload">
+            <input type="submit" class="button" value="Upload Image" name="submit">
+        </form>
 
         
     </div>
