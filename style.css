@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Cairo', sans-serif;
+    margin: 0em;
+    padding: 0em;
+    align-content: center;
+}
+
+.top{
+    background-image: url("Images/code-1084923.png");
+    background-size: 130%;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background-attachment: fixed;
+}
+ul{
+    align-content: center;
+    text-align: center;
+    margin: 0em;
+    overflow: hidden;
+    background-color: rgba(118, 255, 6, 0.815);
+    
+    
+}
+
+li{
+    display: inline-block;
+    margin: 0em;
+    padding: 0em;
+    padding-left: 5%;
+    
+    
+}
+
+.menu{
+    display: inline;
+    
+}
+
+.header{
+    font-size: 5em;
+    text-align: center;
+    text-shadow:1px 3px rgba(118, 255, 6, 0.815);
+}
+a{
+    font-weight: 200;
+    background-color: #f4433600;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    background-color:rgba(118, 255, 6, 0.815);
+    color: black;
+    cursor: crosshair;
+    font-family: 'Comfortaa', cursive;
+    padding: 1.2em;
+}
+
+.content{
+    height: 70%;
+    margin: 2%;
+}
+
+.footer{
+    background-color: rgb(29, 29, 29);
+    color: rgb(161, 160, 160);
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+
+}
+
+button{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius: 12px;
+    padding: 0.5em;
+    margin-right: 25px;
+    margin-top:10px;
+
+}
+button:hover{
+    background-color: #4CAF50;
+  color: white;
+}
