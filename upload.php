@@ -1,6 +1,6 @@
 <?php
 $target_dir = "uploads/";
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+$target_file = $target_dir.basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 // Check file size
@@ -10,7 +10,7 @@ if ($_FILES["fileToUpload"]["size"] > 300000) {
 }
 // Allow certain file formats
 if($imageFileType != "apk") {
-    echo "Sorry, only .apk files are allowed.";
+    echo "Sorry, only apk files are allowed.\n";
     $uploadOk = 0;
 }
 // Check if $uploadOk is set to 0 by an error
