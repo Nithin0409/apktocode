@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
 
 *{
     font-family: 'Cairo', sans-serif;
@@ -14,6 +15,7 @@
     background-color: rgba(255, 255, 255, 0.904);
     border-radius: 2%;
     padding: 3em;
+    
     
 }
 
@@ -56,6 +58,9 @@ li{
     font-size: 4em;
     text-align: center;
     text-shadow:1px 3px rgba(118, 255, 6, 0.815);
+    font-family: 'Audiowide', cursive;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
 }
 a{
     font-weight: 200;
@@ -82,7 +87,7 @@ a:hover{
 
 .content{
     margin: 1em;
-    min-height: 55%;
+    min-height: 60%;
 }
 
 .footer{
@@ -91,8 +96,8 @@ a:hover{
     font-weight: bold;
     font-family: 'Montserrat', sans-serif; 
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 6%;
+    padding-top: 3em;
+    padding-bottom: 3.5em;
     font-size: 0.7em;
 
 }
