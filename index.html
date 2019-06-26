@@ -1,6 +1,7 @@
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <meta name="theme-color" content="#76ff05"/>
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <title>APK to Code</title>
     </head>
@@ -27,11 +28,16 @@
             You will then redirected to download the code of your file in a zip file.
             You can then edit your code in Android Studio.
         </div>
-        <br> <br><form action="upload.php" method="post" enctype="multipart/form-data">
+        <br> <br>
+        
+        <form action="upload.php" method="post" enctype="multipart/form-data"></form>
             Select apk to upload:
             <input class="button" type="file" name="fileToUpload" id="fileToUpload">
             <input type="submit" class="button" value="Upload APK" name="Upload">
-        </form> 
+        </form>
+        
+        
+        
         <div class="para">
             <br>Converting the code back to apk can be performed on Android Studio's official SDK
             And this feature will also be available on my website in a few weeks of time.
