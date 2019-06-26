@@ -75,9 +75,14 @@ a:hover{
     padding: 1.2em;
 }
 
+.para{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .content{
-    height: 50%;
     margin: 1em;
+    min-height: 55%;
 }
 
 .footer{
@@ -88,6 +93,7 @@ a:hover{
     text-align: center;
     padding-top: 5%;
     padding-bottom: 2%;
+    float: bottom;
 
 }
 
